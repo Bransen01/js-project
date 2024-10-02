@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main class="container">
+            <div class="scorecard">
+                <div class="first">
+                     <h2 class="text">HOME</h2>
+                    <div class="one"> 
+                        <p class="pts" id="home-pts">0</p>
+                        <p class="text-shadow">000</p>
+                    </div>
+                <div class="two">
+                    <button id="one-pt" onclick="homeAddPoint()">+1</button>                
+                    <button id="two-pt" onclick="homeAddTwoPoint()">+2</button>
+                    <button id="three-pt" onclick="homeAddThreePoint()">+3</button>
+                </div>
+                    
+                </div>
+            <div class="first">
+                 <h2 class="text">GUEST</h2>
+                 
+                 <div class="one">
+                    <p class="pts" id="guest-pts">0</p>
+                    <p class="text-shadow">000</p>
+                 </div>
+                 <div class="two">
+                    <button id="one-pt" onclick="guestAddPoint()">+1</button>
+                    <button id="two-pts" onclick="guestAddTwoPoint()">+2</button>
+                    <button id="three-pts" onclick="guestAddThreePoint()">+3</button>
+                </div>
+            </div>
+            </div>
+            
+            
+            
+        </main>
+        <footer>
+        <p class="footer">Made by <a href="https://github.com/praxeds">Bransen Ashaka</a></p>
+        <p class="footer">Website made as part of the JavaScript Course provided by <a href="https://scrimba.com/">Scrimba</a></p>
+    </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
